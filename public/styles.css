@@ -1,3 +1,15 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.grayscale_filter {
+	-webkit-filter: saturate(0.03);
+	  filter: saturate(0.03);
+}
+#myVideoTag {
+	float: left;
+}
+
+#theirVideoTag {
+	float: left;
+}
